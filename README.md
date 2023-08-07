@@ -2,8 +2,12 @@ Developed a dynamic and responsive TODO List Application using HTML, CSS, JavaSc
 
 Key Highlights:
 
-Designed and implemented a user-friendly TODO List Application using HTML, CSS, and JavaScript.
-Enabled task manipulation through functionalities such as adding, editing, and deleting tasks.
-Utilized Django and Python to build the backend.
-Achieved responsiveness across devices, ensuring an optimal user experience.
-Showcased proficiency in frontend technologies, backend development, and creating interactive web applications.
+1) Designed and implemented a user-friendly TODO List Application using HTML, CSS, and JavaScript.
+2) Enabled task manipulation through functionalities such as adding, editing, and deleting tasks.
+3) Utilized Django and Python to build the backend.
+4) Achieved responsiveness across devices, ensuring an optimal user experience.
+5) Showcased proficiency in frontend technologies, backend development, and creating interactive web applications.
+
+
+
+

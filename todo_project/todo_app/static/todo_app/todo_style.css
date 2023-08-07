@@ -1,0 +1,158 @@
+label{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    align-self: center;
+    display: block;
+    margin: auto;
+    padding: 0.2rem;
+
+}
+
+
+input[type="text"]
+{
+    font-size:1.2rem;
+}
+
+button{
+    background-color:rgb(86, 236, 86);
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    align-self:center;
+    display: block;
+    margin: auto;
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(154, 154, 252);
+}
+
+
+.div_design{
+    height: 10rem;
+    width: 22rem;
+    position: relative;
+    border-color: gray 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    margin: auto;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    border: outset;
+}
+
+.div_design_edit{
+    height: 12rem;
+    width: 22rem;
+    position: relative;
+    border-color: gray 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    margin: auto;
+    align-items: center;
+    border: outset;
+    position:absolute;
+    top:35%;
+    left:35%
+}
+
+.div_design:hover{
+    box-shadow: 0px 0px 2px 2px rgb(100, 243, 100);
+}
+
+
+
+
+
+
+table{
+    margin-top: 10rem;
+    margin:auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,td{
+    border: 0.2px solid #ddd;
+    align-items: center;
+    width: 20%;
+    padding: 2px 2px;
+    margin-left: 1rem;
+    
+}
+
+td{
+    height: 2.5rem;
+
+}
+
+tr:nth-child(even){
+    background-color: rgb(238, 237, 237);
+}
+
+th{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.a_edit{
+    display: block;
+    width: 6rem;
+    height: 2rem;
+    background:rgb(65, 65, 240);
+    padding: 0.5rem;
+    text-align: center;
+    align-content: center;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    margin-left: 1px;
+    margin: auto;
+}
+        
+ .a_edit:hover{
+    background-color: rgb(139, 139, 248);
+    color: black;
+ }   
+
+
+ .a_delete{
+    display: block;
+    width: 6rem;
+    height: 2rem;
+    background:rgb(247, 51, 51);
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    margin-left: 1px;
+    margin: auto;
+}
+        
+ .a_delete:hover{
+    background-color: rgb(248, 87, 87);
+    color: black;
+ }     

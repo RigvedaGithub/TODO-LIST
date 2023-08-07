@@ -1,0 +1,32 @@
+{% extends 'todo_app/base.html' %}
+
+{% block title%}TODO LIST | ADD TASK{% endblock%}
+
+{% block content%}
+    <form method="POST">
+        {% csrf_token %}
+        <div class="div_design">
+        <label>Add Your Task Here </label>
+        {{form}}
+        <button>ADD TASK</button>
+        </div>
+
+        {% comment %} <button>EDIT TASK</button>
+        <button>DELETE TASK</button> {% endcomment %}
+        {% comment %} <div class="div_design_table"> {% endcomment %}
+        <table>
+            <tr>
+                <th colspan="4" >TASKS TO DO</th>
+            </tr>
+        {% for task in all_tasks %}
+        <tr>
+            <td style="font-size:1.4rem; width:40%">{{task}} </td>
+            <td><a href="edit-task/{{task.id}}" class="a_edit">EDIT</a></td>
+            <td><a href="delete-task/{{task.id}}" class="a_delete">DELETE</a></td>
+        </tr>
+        {% endfor %}
+            </table>
+    
+    <form>
+    
+        {% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'todo_app/base.html' %}
+
+{% block title%}TODO LIST | EDIT TASK{% endblock%}
+
+{% block content%}
+    <form method="POST">
+        {% csrf_token %}
+        <div class="div_design_edit">
+        <label>UPDATE YOUR TASK</label>
+        {{form}}
+        {% comment %} <input type="submit" value="UPDATE TASK"/> {% endcomment %}
+     
+        </div>
+
+        {% comment %} <input type="text" name="taskname" value="{{task_to_edit.task}}"/> {% endcomment %}
+        {% comment %} <a href="/edit-task/{{task_to_edit.id}}">SAVE UPDATED TASK</a> {% endcomment %}
+    
+    </form>
+{% endblock %}
